@@ -1,0 +1,91 @@
+.menu-content {
+    position: relative;
+}
+.collapsible-menu {
+    padding: 0px;
+    border: none;
+    background-color: rgba(256,256,256,.9);
+}
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+	text-align: center;
+}
+
+.collapsible-menu label {
+/*    display: block; */
+    cursor: pointer;
+	background: url(/theme/images/menu-open.png) no-repeat left center;
+	background-size: contain;
+    padding: 10px 0 10px 50px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 27px;
+	right: 10%;
+	z-index: 5;
+}
+input#menu {
+    display: none;
+}
+
+input:checked +label {
+    background: url(/theme/images/menu-close.png) no-repeat left center;
+    background-size: contain;
+}
+
+input:checked +label {
+	position: fixed;
+}
+
+.logo {
+	z-index: 1;
+	position: relative;
+}
+
+.menu-content {
+    max-height: 0;
+	width:0;
+    overflow: hidden;
+    padding: 0 0 0 0px; 
+    position: absolute;
+	padding-top: 10%;
+    z-index: 2;
+    top: 0;
+    right: 0;
+   background-color: rgba(255,255,255,.96);
+   overflow-y: auto;
+}
+
+.menu-content hr {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+/* Toggle Effect */
+input:checked ~ .menu-content {
+    max-height: 100%;
+    height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+nav li {
+	margin-bottom: 10px;
+}
+
+nav li a {
+	text-decoration: none;
+	display: inline-block;
+	text-shadow: 1px 1px 0px #fff;
+	padding: 10px;	
+	padding-left: 30px;
+	padding-right: 40px;
+	margin: auto;
+	background-color: #fff;
+	border-radius: 2px;
+}
+nav li a:hover {
+	text-decoration: underline;
+}

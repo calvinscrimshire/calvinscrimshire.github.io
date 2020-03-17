@@ -1,0 +1,27 @@
+/*
+Font: 		Saturday Script
+Style: 		Regular
+URL: 		https://www.youworkforthem.com/font/T8076/saturday-script
+Foundry: 	Nicky Laatz
+Foundry: 	https://www.youworkforthem.com/designer/993/nicky-laatz
+Copyright:	Copyright (c) 2016 by Nicky Laatz. All rights reserved.
+Version: 	17
+Created:	July 12, 2017
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'SaturdayScript';
+	src: url('saturday-script.eot');
+	src: url('saturday-script.eot?#iefix') format('embedded-opentype'),
+             url('saturday-script.woff2') format('woff2'),
+	     url('saturday-script.woff') format('woff'),
+	     url('saturday-script.ttf') format('truetype'),
+	     url('saturday-script.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

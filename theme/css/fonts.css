@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1, h2 {
+	font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+	font-weight: 800;
+}
+
+body {
+	padding-bottom:100px;
+	font-family: 'EB Garamond', Georgia, serif;
+	font-size: 14pt;
+	color: #202020;
+}
+
+#header {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+h1 {
+	font-size: 28pt;
+}
+
+h2 {
+	margin-top: 60px;
+}
+
+#site-title {
+	width: 200px;
+	font-size: 40pt;
+}
+
+/*h3 {
+	font-size: 12pt;
+	line-height: 18pt;
+	letter-spacing: 3pt;
+} */
+
+p {
+	font-size: 14pt;
+	line-height: 21pt;
+}
+
+a {
+	color: #004dc0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 10pt;
+}
+a:hover {
+	color: #2e82ff;
+	text-decoration: none;
+}
+
+input[type=button] {
+	font-family: 'EB Garramond', sans-serif;
+	font-size: 14pt;
+}
+
+/* mobile break point, see base.css */
+@media (max-width: 639px) {
+	#site-title{
+		font-size: 30px;
+	}
+}
